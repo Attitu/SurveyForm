@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .surveyCard {
+      background-color: #de3163;
+      margin: 20px;
+    }
+
+    .mainheading,.personaldetail{
+        text-align: center;    
+  }
+
+  
+  p, .PersonalInformation,.Education,.gender,.language, .about,h4, .skills, .motive{
+    margin-left: 10px;
+    font-size: 12px;
+}
+  
+
+  .mainheading{
+    font-size: 20px;
+  }
+
+
+
+
+}
+
+  @media (min-width: 481px) and (max-width: 768px) {
+    .surveyCard {
+      background-color: rgb(107, 184, 72);
+      margin: 20px;
+    }
+
+    .mainheading,.personaldetail{
+      text-align: center;    
+}
+
+
+p, .PersonalInformation,.Education,.gender,.language, .about,h4, .skills, .motive{
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+
+.mainheading{
+  font-size: 20px;
+}
+  }
+
+
+  @media (min-width: 769px) and (max-width: 1024) {
+    .surveyCard {
+      background-color: #3f3b3c;
+    }
+    .mainheading,.personaldetail{
+      text-align: center;    
+}
+
+
+p, .PersonalInformation,.Education,.gender,.language, .about,h4, .skills, .motive{
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+
+.mainheading{
+  font-size: 20px;
+}
+  }
+
+  @media (min-width: 1024px) {
+
+    .surveyCard{
+      background-color: #02230C;
+      color: whitesmoke;
+      margin: 0 250px;
+      padding: 20px 0;
+  }
+  
+  .mainheading,.personaldetail{
+      text-align: center;
+      margin-right:20px ;
+  }
+  
+  .PersonalInformation, .education,.about,.motive, .skills{
+    margin-left: 115px;
+  }
+  h4{
+      text-align: center;
+      margin-left: -120px;
+  }
+  input[type=text],input[type=email]{
+      width: 290px;
+      padding: 8px;
+      border-radius: 4px;
+      border: 0;
+      margin-top: 15px;
+      outline: 0;
+      font-weight: bold;
+  }
+  
+  .surname{
+      margin-left: 15px;
+  }
+  input[type=email]{
+      width: 600px;
+      margin-top: 20px;
+     
+  }
+  
+  #age, #education{
+      width: 80px;
+      padding: 5px;
+      border: 0;
+      border-radius: 4px;
+      outline: 0;
+  }
+  
+  textarea{
+      border-radius: 4px;
+      border: 0;
+  }
+  
+  .submit{
+     justify-items: center;
+  }
+  
+  input[type=submit]{
+      width: 150px;
+      padding: 10px;
+      border-radius: 4px;
+      border: 0;
+      margin-top: 10px;
+      
+  }
+  
+  .submit{
+      text-align: center;
+     
+  }
+  
+  input[type=submit]{
+      font-weight: bold;
+  }
+  
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

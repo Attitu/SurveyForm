@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SurveyForm</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="surveyCard">
+        <h2 class="mainheading">Scholarship Survey Form</h2>
+        
+        <h3 class="personaldetail">Personal Information</h3>
+        <div class="PersonalInformation">
+
+            <p> What is your official name as it appears on the national id</p>
+
+            <div class="names">
+                <input type="text" placeholder="FirstName">
+                <input type="text" placeholder="Surname" class="surname">
+            </div>
+
+            <div>
+                <input type="email" placeholder="example@example.com">
+            </div>
+        
+            <h4> Age Range</h4>
+            <div>
+                <p>what is your age braxket</p>
+                <select name="age" id="age">
+                    <option value="teen">15 - 18</option>
+                    <option value="Lateteen">19 - 24</option>
+                    <option value="Youth">25 - 19</option>
+                    <option value="Adult">20 - 35</option>
+                    <option value="Adult"> 35 and Above</option> 35</option>
+                </select>
+           </div>
+
+        <h4>Gender</h4>
+         <p>What gender do you identify with as a</p>
+        <div class="gender">
+            <div>
+                <input type="radio" value="Male" id = 'man' checked>
+                <label for="man">Male</label>
+            </div>
+           
+            <div>
+                <input type="radio" value="Female" id="woman">
+                <label for="female">Female</label>
+            </div>
+            
+            <div>
+                <input type="radio" value="Others" id="others">
+                <label for="others"> Others</label>
+            </div>
+            
+            <div>
+                <input type="radio" value="I would rather" id="NotSay">
+                <label for="NotSay">I would rather</label>
+            </div> 
+        </div>
+    </div>
+
+    <div class="education">
+        <h4>Education</h4>
+        <div>
+            <p>What is your highest level of education</p>
+            <select name="education" id="education">
+                <option value="Primary School">Primary School</option>
+                <option value="Secondary School">Secondary School</option>
+                <option value="craft">craft</option>
+                <option value="certificate">certificate</option>
+                <option value="Diploma">Diploma</option>
+                <option value="Degree">Degree</option>
+                <option value="Mastors">Mastors</option>
+            </select>
+    </div>
+
+       <div class="language">
+         <p> what languages are fluent in, both writing and speaking?</p>
+         <div>
+            <input type="checkbox" id="Swahili">
+            <label for="Swahili">Swahili</label>
+        </div>
+        <div>
+            <input type="checkbox" id="English">
+            <label for="English">English</label>
+        </div>
+        <div>
+            <input type="checkbox" id="French">
+            <label for="French">French</label>
+        </div>
+        <div>
+            <input type="checkbox" id="German">
+            <label for="German">German</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Afrikanas">
+            <label for="Afrkanas">Afrikanas</label>
+        </div>
+        <div>
+            <input type="checkbox" id="NONE">
+            <label for="NONE">None of the above</label>
+        </div>
+       
+        </div>
+    </div>
+    
+     <div class="skills">
+            <p>What skill(s) whould lke to be trained </p>
+            <div>
+                <input type="checkbox" id="Webdesign">
+                <label for="webdesign">Webdesign</label>
+            </div>
+            <div>
+                <input type="checkbox" id="webdevelopment">
+                <label for="webdevelopent">Webdevelopment</label>
+            </div>
+            <div>
+                <input type="checkbox" id="cybersecurity">
+                <label for="cybersecurity">cybersecurity</label>
+            </div>
+            <div>
+                <input type="checkbox" id="transcription">
+                <label for="transcription">transcription</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Frontend">
+                <label for="frontend">Frontend</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Backend">
+                <label for="Backend">Backend</label>
+            </div>
+        </div>
+    
+
+    <div class="about">
+        <p>How did hear about us</p>
+
+        <div>
+            <input type="checkbox" id="wordofmouth">
+            <label for="wordofmouth">Word Of Mouth</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Facebook">
+            <label for="Facebook">Facebook</label>
+        </div>
+        <div>
+            <input type="checkbox" id="twitter">
+            <label for="twitter">twitter</label>
+        </div>
+        <div>
+            <input type="checkbox" id="LinkedIn">
+            <label for="transcription">LinkedIn</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Others">
+            <label for="Others">Others</label>
+        </div>
+    </div>
+
+    <div class="motive">
+        <p>what motivated you to apply for this scholarship</p>
+        <textarea name="motive" id="" cols="50" rows="5"></textarea>
+    </div>
+
+        <div class="submit">
+            <input type="submit">
+        </div>
+    </div>
+
+    
+    
+    
+</body>
+</html>
